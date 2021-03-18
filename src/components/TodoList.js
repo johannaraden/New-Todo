@@ -12,7 +12,7 @@ const ListContainer = styled.form`
 export const TodoList = () => {
   
   const todos = useSelector((store) => store.todos.list)
-  let deadline = todos.map
+  // let deadline = todos.map
     return (
       <ListContainer>
         <div className="grid-container">
